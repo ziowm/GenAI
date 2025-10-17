@@ -1,0 +1,152 @@
+{
+  "executive_summary": {
+    "key_finding": "GenAI increases critical thinking by 30.7% when paired with high self-confidence",
+    "best_scenario": "GenAI + Self-Confidence Building",
+    "worst_scenario": "GenAI Over-Reliance",
+    "baseline": "Traditional Classroom (No GenAI)"
+  },
+  "scenarios": [
+    {
+      "name": "GenAI + Self-Confidence Building",
+      "short_name": "GenAI + Confidence",
+      "rank": 1,
+      "color": "#2ecc71",
+      "icon": "\ud83d\ude80",
+      "description": "Students use GenAI strategically while maintaining high self-confidence",
+      "outcome": "BEST",
+      "why_title": "Why This Works Best",
+      "why_explanation": [
+        "Students have strong self-confidence in their own problem-solving abilities",
+        "GenAI is used strategically to offload repetitive mechanical tasks",
+        "Cognitive resources are freed up for higher-order critical thinking",
+        "Students critically evaluate and refine AI outputs rather than accepting passively",
+        "Creates a synergy effect: confidence + tool = amplified capabilities"
+      ],
+      "key_behaviors": [
+        "Uses GenAI to check work, not do work",
+        "Asks 'why' and 'how' when reviewing AI suggestions",
+        "Treats GenAI as a thinking partner, not a replacement for thinking",
+        "Maintains ownership of learning outcomes"
+      ],
+      "metrics": {
+        "avg_critical_thinking": 75.27805383860608,
+        "avg_self_confidence": 0.8129973411173782,
+        "avg_genai_confidence": 0.5433945055966352,
+        "std_critical_thinking": 8.025560631219106,
+        "min_critical_thinking": 58.475748892932494,
+        "max_critical_thinking": 91.5001369356487
+      },
+      "comparison": {
+        "vs_traditional": 32.23469977317804,
+        "vs_best": 0.0
+      }
+    },
+    {
+      "name": "Balanced GenAI Use",
+      "short_name": "Balanced Approach",
+      "rank": 2,
+      "color": "#3498db",
+      "icon": "\u2696\ufe0f",
+      "description": "Moderate self-confidence with moderate GenAI usage",
+      "outcome": "GOOD",
+      "why_title": "Why This Works Well",
+      "why_explanation": [
+        "Students have decent self-confidence in their abilities",
+        "GenAI is used moderately, neither avoided nor over-relied upon",
+        "Some cognitive offloading occurs, freeing time for thinking",
+        "Occasional passive acceptance of AI outputs, but generally evaluative",
+        "Results in solid improvement over traditional learning (18.9%)"
+      ],
+      "key_behaviors": [
+        "Uses GenAI for some tasks, traditional methods for others",
+        "Sometimes questions AI outputs, sometimes accepts them",
+        "Developing a relationship with AI tools",
+        "Still building confidence in both self and tool"
+      ],
+      "metrics": {
+        "avg_critical_thinking": 63.99858257536455,
+        "avg_self_confidence": 0.6278192210901067,
+        "avg_genai_confidence": 0.6523394436821873,
+        "std_critical_thinking": 6.8652544820721975,
+        "min_critical_thinking": 47.57714631153367,
+        "max_critical_thinking": 79.51294744765679
+      },
+      "comparison": {
+        "vs_traditional": 12.420990198635302,
+        "vs_best": -14.98374451526654
+      }
+    },
+    {
+      "name": "Traditional Classroom (No GenAI)",
+      "short_name": "Traditional",
+      "rank": 3,
+      "color": "#95a5a6",
+      "icon": "\ud83d\udcda",
+      "description": "No GenAI assistance available, varied self-confidence",
+      "outcome": "BASELINE",
+      "why_title": "Why This Is Middle Ground",
+      "why_explanation": [
+        "No GenAI tools available to offload mechanical tasks",
+        "Students spend significant time on repetitive work",
+        "Self-confidence varies, but tool availability doesn't amplify it",
+        "Critical thinking occurs, but is limited by time spent on mechanics",
+        "Represents the traditional learning paradigm we're comparing against"
+      ],
+      "key_behaviors": [
+        "Completes all work manually, including repetitive tasks",
+        "Time spent on mechanical tasks reduces critical thinking time",
+        "Relies entirely on own abilities and teacher guidance",
+        "No technology amplification of capabilities"
+      ],
+      "metrics": {
+        "avg_critical_thinking": 56.9276097482207,
+        "avg_self_confidence": 0.5361531908607309,
+        "avg_genai_confidence": 0.0,
+        "std_critical_thinking": 7.832617248175149,
+        "min_critical_thinking": 33.359366361659404,
+        "max_critical_thinking": 75.41812763294689
+      },
+      "comparison": {
+        "vs_traditional": 0.0,
+        "vs_best": -24.37688430379482
+      }
+    },
+    {
+      "name": "GenAI Over-Reliance",
+      "short_name": "Over-Reliance",
+      "rank": 4,
+      "color": "#e74c3c",
+      "icon": "\u26a0\ufe0f",
+      "description": "Low self-confidence with high GenAI dependency",
+      "outcome": "WORST",
+      "why_title": "Why This Fails",
+      "why_explanation": [
+        "Students lack confidence in their own problem-solving abilities",
+        "GenAI becomes a crutch rather than a tool",
+        "Passive consumption of AI outputs without critical evaluation",
+        "No cognitive engagement with the problem-solving process",
+        "Dependency prevents development of critical thinking skills",
+        "Students become order-takers from AI rather than independent thinkers"
+      ],
+      "key_behaviors": [
+        "Immediately turns to GenAI without attempting problems",
+        "Copies AI outputs without understanding or evaluation",
+        "Avoids thinking through problems independently",
+        "Feels helpless without AI assistance",
+        "Learning becomes superficial and fragile"
+      ],
+      "metrics": {
+        "avg_critical_thinking": 35.15906899232697,
+        "avg_self_confidence": 0.24701435192053245,
+        "avg_genai_confidence": 0.8641392097813448,
+        "std_critical_thinking": 7.8699170579778865,
+        "min_critical_thinking": 15.218251683196062,
+        "max_critical_thinking": 51.62287838753486
+      },
+      "comparison": {
+        "vs_traditional": -38.2389860599656,
+        "vs_best": -53.294396972978376
+      }
+    }
+  ]
+}
